@@ -1,0 +1,94 @@
+.profileCard {
+  border: none !important;
+  top: calc(100px - 40px) !important;
+}
+
+.clinicCard {
+  border: none !important;
+  top: calc(100px - 40px) !important;
+  border-radius: 0px !important;
+}
+
+.cardHeader {
+  border-bottom: 1px solid lightgray !important;
+  display: flex !important;
+  gap: 50px !important;
+  background-color: #fff !important;
+}
+
+.profilePicture {
+  width: 100px !important;
+  height: 100px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.profileDetails {
+  margin-top: 30px !important;
+}
+
+.profileDesc {
+  display: inline !important;
+  font-size: 13px !important;
+  margin-top: -45px !important;
+}
+
+.profiledetalBtn button {
+  background-color: #fff !important;
+  border: 1px solid #007ad9 !important;
+  color: #007ad9 !important;
+  font-size: 12px !important;
+  font-family: sans-serif poppins;
+  font-weight: 500;
+  margin-top: 4px !important;
+}
+
+.bookAppointment {
+  justify-content: space-between;
+}
+
+.profiledetalBtn .button :hover {
+  background-color: #64bc6e !important;
+}
+
+.menuIcon {
+  border: 1px solid lightgray !important;
+  width: 95px !important;
+  height: auto !important;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: end;
+}
+
+.menuIconsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  gap: 25px;
+}
+
+.consulType {
+  font-size: 15px;
+  color: gray;
+  font-family: sans-serif poppins;
+}
+
+.feeDatails {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: sans-serif poppins;
+  color: #64bc6e;
+}
+
+.payClinic {
+  color: #715ac4;
+  font-weight: 700;
+  font-family: sans-serif poppins;
+  font-size: 14px;
+}
+
+.footerDetails {
+  background-color: #ddf198;
+  top: calc(100px - 40px) !important;
+}
