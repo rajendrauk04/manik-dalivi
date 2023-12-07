@@ -58,6 +58,12 @@
   align-items: center;
   border-radius: 10px;
   justify-content: end;
+  border: none !important;
+}
+
+.menuIconActive{
+  background-color: #64bc6e !important;
+  border: none !important;
 }
 
 .menuIconsContainer {

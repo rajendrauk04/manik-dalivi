@@ -36,7 +36,7 @@ const ClinicSection = () => {
                 <img
                   className={
                     Styles.menuIcon +
-                    (activeTab === "home" ? ` ${Styles.menuIcon}` : "")
+                    (activeTab === "home" ? ` ${Styles.menuIconActive}` : "")
                   }
                   src={ImageHome}
                   alt="home-icon"
@@ -45,7 +45,7 @@ const ClinicSection = () => {
                 <img
                   className={
                     Styles.menuIcon +
-                    (activeTab === "call" ? ` ${Styles.menuIcon}` : "")
+                    (activeTab === "call" ? ` ${Styles.menuIconActive}` : "")
                   }
                   src={ImageCall}
                   alt="call-icon"
@@ -54,7 +54,7 @@ const ClinicSection = () => {
                 <img
                   className={
                     Styles.menuIcon +
-                    (activeTab === "video" ? ` ${Styles.menuIcon}` : "")
+                    (activeTab === "video" ? ` ${Styles.menuIconActive}` : "")
                   }
                   src={ImageVideo}
                   alt="video-icon"
