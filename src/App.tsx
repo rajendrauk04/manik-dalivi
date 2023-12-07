@@ -12,7 +12,6 @@ function App() {
       <Container>
         <Home />
         <ClinicSection />
-        <FooterSection />
       </Container>
     </>
   );

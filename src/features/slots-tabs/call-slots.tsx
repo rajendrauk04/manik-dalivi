@@ -1,4 +1,7 @@
 import { Col, Nav, Row, Tab } from "react-bootstrap";
+import FirstTable from "../slots-tables/table-one";
+import SecondTable from "../slots-tables/table-two";
+import LastTable from "../slots-tables/table-three";
 
 const CallSlots = () => {
   return (
@@ -10,7 +13,7 @@ const CallSlots = () => {
             marginLeft: "10px",
             alignItems: "center",
             marginTop: "30px",
-            borderBottom: "1px solid gray"
+            borderBottom: "1px solid gray",
           }}
         >
           <Col>
@@ -32,18 +35,24 @@ const CallSlots = () => {
               </Col>
               <Col md={3}>
                 <Nav.Item>
-                  <Nav.Link eventKey="today" className="text-center text-black ms-5">
+                  <Nav.Link
+                    eventKey="today"
+                    className="text-center text-black ms-5"
+                  >
                     <b>
                       {" "}
                       Today <br />
                     </b>{" "}
-                    09 slots available
+                    07 slots available
                   </Nav.Link>
                 </Nav.Item>
               </Col>
               <Col md={3}>
                 <Nav.Item>
-                  <Nav.Link eventKey="tomorrow" className="text-center text-black ms-5">
+                  <Nav.Link
+                    eventKey="tomorrow"
+                    className="text-center text-black ms-5"
+                  >
                     <b>
                       {" "}
                       Tomorrow <br />
@@ -54,12 +63,15 @@ const CallSlots = () => {
               </Col>
               <Col md={3}>
                 <Nav.Item>
-                  <Nav.Link eventKey="up-coming" className="text-center text-black ms-5">
+                  <Nav.Link
+                    eventKey="up-coming"
+                    className="text-center text-black ms-5"
+                  >
                     <b>
                       {" "}
                       Mon, 01 Dec <br />
                     </b>{" "}
-                    12 slots available
+                    06 slots available
                   </Nav.Link>
                 </Nav.Item>
               </Col>
@@ -84,9 +96,15 @@ const CallSlots = () => {
         <Row>
           <Col>
             <Tab.Content>
-              <Tab.Pane eventKey="today">Today's Slot</Tab.Pane>
-              <Tab.Pane eventKey="tomorrow">Tomorrow's Slot</Tab.Pane>
-              <Tab.Pane eventKey="up-coming">Mon, 01 Dec's Slot</Tab.Pane>
+              <Tab.Pane eventKey="today">
+                <FirstTable />
+              </Tab.Pane>
+              <Tab.Pane eventKey="tomorrow">
+                <SecondTable />
+              </Tab.Pane>
+              <Tab.Pane eventKey="up-coming">
+                <LastTable />
+              </Tab.Pane>
             </Tab.Content>
           </Col>
         </Row>

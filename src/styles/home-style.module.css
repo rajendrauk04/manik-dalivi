@@ -89,6 +89,24 @@
 }
 
 .footerDetails {
-  background-color: #ddf198;
-  top: calc(100px - 40px) !important;
+  background-color: #ddf198 !important;
+  border: none !important;
+  top: calc(100px - 50px);
+}
+.cardAccordian {
+  background-color: #ddf198 !important;
+  height: 900px !important;
+
+}
+
+.footerContent{
+  justify-content: center;
+}
+
+.footerContent h2{
+  font-weight: 400;
+  color: #000;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
 }

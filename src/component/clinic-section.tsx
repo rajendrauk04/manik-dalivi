@@ -8,6 +8,7 @@ import InClincDetails from "../features/in-clicknic";
 import { useState } from "react";
 import AudioDetails from "../features/audio-details";
 import CallDetails from "../features/call-details";
+import FooterSection from "./footer-section";
 
 const ClinicSection = () => {
   const [activeTab, setActiveTab] = useState("home");
@@ -68,6 +69,9 @@ const ClinicSection = () => {
             {activeTab === "video" && <CallDetails />}
           </Row>
         </Card.Body>
+        <Card.Footer className={Styles.cardAccordian}>
+          <FooterSection />
+        </Card.Footer>
       </Card>
     </>
   );
